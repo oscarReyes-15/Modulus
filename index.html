@@ -2,12 +2,13 @@
 <html lang="es" data-swarm-static>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Modulus · Consejo estudiantil</title>
-  <meta name="description"
-    content="Distintas ideas. Una misma voz. Conoce a la Junta Directiva y las propuestas de Modulus.">
-  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modulus · Consejo estudiantil</title>
+    <link rel="icon" type="image/png" href="./assets/Lumi.png">
+    <meta name="description"
+          content="Distintas ideas. Una misma voz. Conoce a la Junta Directiva y las propuestas de Modulus.">
+          
   <style>
     .person img {
       transform-origin: center bottom;
@@ -587,11 +588,14 @@
       }
 
       .group {
-        height: 340px
+        min-width: 0;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 640 / 340;
       }
 
       .mobile-hint {
-        display: inline
+        display: none;
       }
 
       .group-base {
